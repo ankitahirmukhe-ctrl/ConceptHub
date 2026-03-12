@@ -1,0 +1,191 @@
+*{
+    margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+    background-color: #070A0F;
+    overflow: hidden;
+}
+.heading{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #1c65ad;
+    position: absolute;
+    top:220px;
+    font-size:45px;
+    font-family:"Segoe Script";
+}
+
+h3{
+      position: absolute;
+    top:320px;
+    color:rgb(81, 84, 84);
+    font-size: 25px;
+}
+.navbar{
+    height:55px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px 0 10px;
+}
+h2{
+font-family:"Segoe Script";
+    color:white;
+
+}
+.links a{
+    font-style: none;
+    font-family: "Segoe Script";
+    text-decoration: none;
+    color: White;
+     font-size: 18px;
+}
+.searchbar{
+  position: relative;
+  width: 420px;
+  height: 48px;
+  background: rgba(20, 22, 56, 0.35); /* transparent dark */
+  backdrop-filter: blur(6px);     /* glass effect */
+  border-radius: 30px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 560px;
+  margin-top: 390px;
+}
+ .searchbar input {
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  padding-left: 20px;
+  color: rgb(251, 244, 244);
+  font-size: 15px;
+  font-family: serif;
+}
+button{
+   position:relative;
+   bottom:4px;
+   right:10px;
+   background-color: transparent;
+   border: none;
+}
+.icon{
+    font-size:20px;
+}
+button a{
+    text-decoration: none;
+}
+.content p{
+    color:white;
+    font-size: 40px;
+     position:absolute;
+    left:20px;
+}
+.treecolor{
+    color:rgb(60, 101, 214);
+}
+.navtrack {
+position: relative;
+top:55px;
+left:2px;
+}
+.navtrack p{
+    font-size: 18px;
+}
+.homecolor{
+    color:gray
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    
+}
+.card{
+    height:400px;
+    width: 400px;
+    background-color: aquamarine;
+    position: relative;
+    top:150px;
+    border-radius: 10px;
+    background: linear-gradient(#0D1015, #0E131F);
+    display: flex;
+    flex-direction: column;
+}
+.card:hover{
+     transform: scale(1.10);
+}
+.cardhead{
+    display: flex;
+}
+.card img{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:30px;
+    top:20px;
+}
+.card h1{
+    position: relative;
+    left:50px;
+    top:25px;
+    font-size: 25px;
+    color: azure;
+    font-family:  Garamond, serif;
+}
+.line img{
+    position: relative;
+    left:20px;
+    top:15px;
+    width:350px;
+}
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    position: relative;
+}
+
+.imgcont{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:10px;
+    
+}
+.imgcont img{
+    position: relative;
+    top:10px;
+    height: 25px;
+    width: 25px;
+}
+.imgcont p{
+    position: relative;
+    top:10px;
+    left:40px;
+    font-size: 20px;
+ color:white;
+}
+.card button{
+    height:40px;
+    width:300px;
+    background-color: #1c65ad;
+    position: relative;
+    left:50px;
+    top:50px;
+    border-radius: 20px;
+     background: linear-gradient(135deg, #0c233a, #3c65d6);
+     font-size: 18px;
+     font-family: cursive;
+}
