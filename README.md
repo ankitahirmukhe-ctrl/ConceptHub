@@ -71,3 +71,19 @@ This prototype demonstrates the basic layout and user interaction for the Concep
 ## Conclusion
 
 ConceptHub aims to create a unified learning workspace where students can explore theory, practice coding, and build projects without switching between multiple platforms. The prototype demonstrates the design and structure of the platform and highlights how learning resources can be organized efficiently.
+
+---
+
+## Team
+
+**Team Name:** CodeSync
+
+**Members:**
+
+* Ankita Hirmukhe
+* Falguni Firake
+* Anirudha Kashid
+
+**College:**
+Indira College of Engineering and Management, Parandwadi, Pune
+
